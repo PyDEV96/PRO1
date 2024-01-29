@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  microservice1:
+    build: ./microservice1
+    ports:
+      - "5001:5001"
+
+  microservice2:
+    build: ./microservice2
+    ports:
+      - "5003:5003"
